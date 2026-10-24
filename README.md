@@ -47,7 +47,7 @@ python -m http.server 8000
 
 网站通过 GitHub Pages 发布。向 `main` 分支推送更新后，GitHub Actions 会自动构建并部署静态文件。部署工作流位于 `.github/workflows/deploy.yml`。
 
-- 在线地址：<https://mdx-777.github.io/->
+- 在线地址：<https://mdx-777.github.io/-/>
 - 部署状态：在 GitHub 仓库的 **Actions** 标签页查看。
 
 ## 文件结构
@@ -62,3 +62,4 @@ python -m http.server 8000
 ├── style.css                     # 页面样式
 └── README.md                     # 项目说明
 ```
+
